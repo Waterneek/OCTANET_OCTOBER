@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(ferrari3.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: rgb(230, 238, 238);
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.flx{
+    display:flex;
+
+}
+
+.Logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-links{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 400px;
+    padding: 20px;
+    background-color: rgba(198, 230, 246, 0.222);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+    margin: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover{
+    border-bottom: 2px solid rgba(255,20,0.222);
+    transition: .3s;
+}
+
+li{
+    list-style: none;
+}
+
+.menu{
+    position: absolute;
+    right: 40px;
+    width: 20px;
+    object-fit: contain;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(248, 240, 240, 0.616);
+}
+
+.menu:hover{
+    background-color: rgb(107, 28, 28);
+}
+
+.content{
+    position: absolute;
+
+}
+
+.content span{
+    font-size: 15px;
+    color:rgb(204,204,204);
+    position: absolute;
+    padding-top:7px;
+    padding-left: 3px;;
+}
+
+.content h2{
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 500;
+}
+
+.content h6{
+    margin-top: 450px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: grey;
+}
+
+.content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: grey;
+}
+
+h6,p{
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.cards{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(240, 230, 230, 0.372);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+}
+
+.cards div{
+    margin: 5px 40px;
+}
+
+.cards h2{
+    font-weight: 400;
+}
+
+.cards h3{
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.cards h6{
+    color: rgba(240,248,255,0.776);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card2{
+    border-right: 2px solid rgb(173,173,210);
+    border-left: 2px solid rgb(173,173,210);
+    padding: 0 60px;
+}
+
+
+.flex {
+    display: flex;
+}
