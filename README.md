@@ -1,2 +1,2 @@
-# OCTANET_OCTOBER_TASK 1
+# OCTANET_OCTOBER
 Web Development 
